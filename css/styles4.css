@@ -1,0 +1,47 @@
+/* contact.html */
+
+li.bouton{
+    font-size: 30px;
+}
+
+nav.menu-nav{
+    text-align: center;
+    padding-top: 13px;
+}
+
+nav.menu-nav ul li.bouton{
+    display: inline-block;
+}
+
+nav.menu-nav ul li.bouton{
+    list-style-type: none;
+}
+
+nav.menu-nav ul li.bouton a{
+    color: white;
+    background-color: pink;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+nav.menu-nav ul li.bouton:hover a{
+    color: white ;
+    background-color: blueviolet;
+    transition: 1.0s all;
+}
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    margin: auto;
+}
+
+p.copy{
+    font-size: 20px;
+    margin: auto;
+}
+
+#logo_fixe { position : absolute; left : 10px; top : 6px; }

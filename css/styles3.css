@@ -1,0 +1,112 @@
+/* équipe.html */
+
+li.bouton{
+    font-size: 30px;
+}
+
+nav.menu-nav{
+    text-align: center;
+    padding-top: 13px;
+}
+
+nav.menu-nav ul li.bouton{
+    display: inline-block;
+}
+
+nav.menu-nav ul li.bouton{
+    list-style-type: none;
+}
+
+nav.menu-nav ul li.bouton a{
+    color: white;
+    background-color: pink;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+nav.menu-nav ul li.bouton:hover a{
+    color: white ;
+    background-color: blueviolet;
+    transition: 1.0s all;
+}
+
+div#content div{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    background-repeat:no-repeat;
+}
+
+div#content div.Millieu{
+    vertical-align: top;
+    background-color: rgb(240, 198, 205);
+}
+
+div#content div.Millieu h1, p{
+    margin: 10px;
+}
+
+h1.titre{
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+}
+
+p.copy{
+    font-size: 20px;
+    margin: auto;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h2.color{
+color : #790560;
+}
+
+h2.color2{
+    color : #1100ff;
+}
+
+h2.color3{
+    color : #f36d00;
+}
+
+h2.color4{
+    color : #390094;
+}
+
+h2.color5{
+    color : #d10000;
+}
+
+h2.color6{
+    color : #7f0283;
+}
+
+h2.color7{
+    color : #ffe600;
+}
+
+h2.color8{
+    color : #2a6900;
+}
+
+h2.color9{
+    color: rgb(167, 30, 53);
+}
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    margin: auto;
+}
+
+#logo_fixe { position : absolute; left : 10px; top : 6px; }
